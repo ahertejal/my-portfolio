@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tejal Anil Aher | Portfolio Resume</title>
+  <meta name="description" content="Premium portfolio resume for Tejal Anil Aher, CSE (AI & ML) student." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-orb bg-orb--one"></div>
+  <div class="bg-orb bg-orb--two"></div>
+
+  <header class="top-nav" id="home">
+    <div class="brand">TA</div>
+    <nav class="nav-links">
+      <a href="#about">Journey</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Validation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="mode-toggle" id="modeToggle" aria-label="Toggle theme">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+  </header>
+
+  <main class="container">
+    <section class="hero reveal">
+      <article class="hero-card card">
+        <p class="eyebrow">PORTFOLIO RESUME</p>
+        <h1>Tejal Anil Aher</h1>
+        <p class="tagline">CSE (AI &amp; ML) Student | Problem Solver | Tech Enthusiast</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Contact Me</a>
+          <a class="btn btn-secondary" href="tejal_aher_resume.jpg" target="_blank" rel="noopener">View
+            Resume</a>
+        </div>
+
+        <div class="quick-contact">
+          <a href="tel:9172983078"><i class="fa-solid fa-phone"></i> 9172983078</a>
+          <a href="mailto:tejalaher27@gmail.com"><i class="fa-solid fa-envelope"></i>tejalaher27@gmail.com</a>
+        </div>
+      </article>
+
+      <article class="profile-card card reveal-stagger">
+        <img src="profile%20image.jpeg" alt="Tejal's profile" />
+        <div class="profile-badge">
+          <i class="fa-solid fa-sparkles"></i>
+          <span>AI &amp; ML Learner</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="section-title-wrap">
+        <h2>The Journey</h2>
+      </div>
+      <article class="card about-card">
+        <p>
+          I am a passionate Computer Science student specializing in Artificial Intelligence and Machine Learning.
+          My approach blends analytical thinking with creative problem solving to build impactful solutions.
+        </p>
+      </article>
+    </section>
+
+    <section class="section reveal" id="education">
+      <div class="section-title-wrap split-title">
+        <h2>Education</h2>
+        <div class="score-pill"><span>94.76</span><small>MHT CET Percentile</small></div>
+      </div>
+
+      <article class="card education-card">
+        <div class="edu-main">
+          <h3>MIT Academy of Engineering</h3>
+          <p>B.Tech CSE (AI &amp; ML)</p>
+          <p>First Year</p>
+        </div>
+        <span class="badge">AI/ML Track</span>
+      </article>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <div class="section-title-wrap">
+        <h2>Skill Architecture</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="card skill-card">
+          <h3><i class="fa-solid fa-code"></i> Languages</h3>
+          <p>C</p>
+          <p>Python</p>
+
+        </article>
+
+        <article class="card skill-card">
+          <h3><i class="fa-solid fa-chart-column"></i> Visualization</h3>
+          <p>Power BI</p>
+          <p>Excel</p>
+        </article>
+
+        <article class="card skill-card">
+          <h3><i class="fa-solid fa-laptop-code"></i> Development</h3>
+          <p>Basics of Full Stack</p>
+        </article>
+
+        <article class="card skill-card">
+          <h3><i class="fa-solid fa-brain"></i> Concepts</h3>
+          <p>Data Analysis</p>
+          <p>Data Visualization</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-title-wrap">
+        <h2>Featured Works</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="card project-card" data-modal="project" data-title="Data Visualization Dashboard"
+          data-description="A sentiment analysis project focused on extracting emotions from text data using machine learning workflows and clean visualization outputs."
+          data-image="dashboard.png">
+          <img src="dashboard.png" alt="Data Visualization Dashboard" />
+          <div class="project-meta">
+            <h3>Data Visualization Dashboard</h3>
+            <p>ML-powered sentiment analyzer with insights dashboard.</p>
+          </div>
+        </article>
+
+        <article class="card project-card" data-modal="project" data-title="Price Prediction Model"
+          data-description="A machine learning project focused on forecasting values from historical data using advanced regression models and predictive analytics."
+          data-image="price predector.png">
+          <img src="price predector.png" alt="Price Prediction Model" />
+          <div class="project-meta">
+            <h3>Price Prediction Model</h3>
+            <p>ML-powered price predictor with accurate forecasting.</p>
+          </div>
+        </article>
+
+        <article class="card project-card" data-modal="project" data-title="Auto-organize Downloads"
+          data-description="An automation script designed to intelligently categorize and sort downloaded files into specific folders based on their file types to maintain a clean workspace."
+          data-image="auto organizer.png">
+          <img src="auto organizer.png" alt="Auto-organize Downloads" />
+          <div class="project-meta">
+            <h3>Auto-organize Downloads</h3>
+            <p>Automated file sorting utility for clean workspaces.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section reveal" id="certifications">
+      <div class="section-title-wrap">
+        <h2>Professional Validation</h2>
+      </div>
+
+      <div class="cert-list">
+        <button class="card cert-item" data-modal="certificate" data-title="Google Cloud"
+          data-image="images/cert1.jpg"><i class="fa-solid fa-cloud"></i> Google Cloud</button>
+        <button class="card cert-item" data-modal="certificate" data-title="Anthropic AI Fluency Courses"
+          data-image="images/cert2.jpg"><i class="fa-solid fa-robot"></i> Anthropic AI Fluency Courses</button>
+        <button class="card cert-item" data-modal="certificate" data-title="IBM Career Essentials"
+          data-image="images/cert1.jpg"><i class="fa-solid fa-briefcase"></i> IBM Career Essentials</button>
+        <button class="card cert-item" data-modal="certificate" data-title="Cisco Python Essentials"
+          data-image="images/cert2.jpg"><i class="fa-solid fa-network-wired"></i> Cisco Python Essentials</button>
+
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="double-grid">
+
+        <article class="card mini-section">
+          <h2>Achievements</h2>
+          <ul>
+            <li>Kickboxing State level Gold medalist</li>
+            <li>Winner of Techno-Math Innovation Presentation</li>
+          </ul>
+        </article>
+
+        <article class="card mini-section">
+          <h2>Extra Activities</h2>
+          <ul>
+            <li>Painting</li>
+            <li>Rubik's cube solving</li>
+          </ul>
+        </article>
+
+        <article class="card mini-section">
+          <h2>Strengths</h2>
+          <ul>
+            <li>Quick learner</li>
+            <li>Self-motivated</li>
+            <li>Problem-solving mindset</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta card reveal">
+      <h2>Let's build something intelligent together</h2>
+      <p>Curiosity meets creativity and turns ideas into meaningful AI solutions.</p>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-title-wrap">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-grid">
+        <a class="card contact-item" href="tel:+917820806524">
+          <i class="fa-solid fa-phone"></i> 9172983078
+        </a>
+        <a class="card contact-item" href="mailto:tejalaher27@gmail.com">
+          <i class="fa-solid fa-envelope"></i> tejalaher27@gmail.com
+        </a>
+        <a class="card contact-item" href="https://www.linkedin.com/in/tejal-aher-519913387/" target="_self"
+          rel="noopener">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a class="card contact-item" href="https://github.com/ahertejal" target="_self" rel="noopener">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Tejal Anil Aher </p>
+
+    </footer>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-content card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+      <img id="modalImage" src="images/cert1.jpg" alt="Modal preview" />
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
